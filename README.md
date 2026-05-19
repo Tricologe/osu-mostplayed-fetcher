@@ -10,9 +10,19 @@ We all "quit" osu! at some point and delete our maps, only to come back crawling
 - **API Safe:** Built-in delays and retry mechanisms to prevent rate-limiting.
 
 ## Usage
+
+### Method 1: Standalone Executable (Recommended)
 1. Download `osumostplayedfetcher.exe` from the **Releases** tab.
 2. Place it in any folder and run the program.
 3. Enter your osu! User ID and set the download limit.
+
+### Method 2: Running the Python Script
+Ensure Python is installed on your system.
+1. Clone this repository or download the source code.
+2. Install the required dependencies:
+   `python -m pip install requests`
+3. Run the script via terminal or command prompt:
+   `python osumostplayedfetcher.py`
 
 ### Importing Beatmaps
 
@@ -25,14 +35,12 @@ We all "quit" osu! at some point and delete our maps, only to come back crawling
 - **Method 2:** Open osu!lazer settings, search for "Import", click "Import files from a folder", and select the folder where the script saved your downloaded maps.
 
 ## Build from Source
-Ensure Python is installed on your system.
+If you want to compile the Python script into a standalone `.exe` file yourself:
 
 1. Clone the repository and install dependencies:
    `python -m pip install requests pyinstaller`
-
-2. Compile the script into a standalone executable:
+2. Compile the script:
    `python -m PyInstaller --onefile osumostplayedfetcher.py`
-
 3. The compiled `.exe` will be generated inside the `dist` folder.
 
 ## License
