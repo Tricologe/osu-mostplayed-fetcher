@@ -8,7 +8,7 @@ We all "quit" osu! at some point and delete our maps, only to come back crawling
 - **API Safe:** Built-in delays and retry mechanisms to prevent rate-limiting.
 
 ## Usage
-1. Download `main.exe` from the **Releases** tab.
+1. Download `osumostplayedfetcher.exe` from the **Releases** tab.
 2. Place it in any folder and run the program.
 3. Enter your osu! User ID and set the download limit.
 
