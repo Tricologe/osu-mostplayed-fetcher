@@ -29,7 +29,7 @@ Ensure Python is installed on your system.
    `python -m pip install requests pyinstaller`
 
 2. Compile the script into a standalone executable:
-   `python -m PyInstaller --onefile main.py`
+   `python -m PyInstaller --onefile osumostplayedfetcher.py`
 
 3. The compiled `.exe` will be generated inside the `dist` folder.
 
