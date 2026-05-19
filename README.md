@@ -2,6 +2,8 @@
 
 We all "quit" osu! at some point and delete our maps, only to come back crawling and regretting it. I made this script out of pure laziness so I could just fetch my most played maps automatically instead of clicking the download button 100 times on the website.
 
+[![Download for Windows](https://img.shields.io/badge/Download-For_Windows-0078D6?style=for-the-badge&logo=windows)](https://github.com/Tricologe/osu-mostplayed-fetcher/releases/download/v1.0.0/osumostplayedfetcher.exe)
+
 ## Features
 - **Smart Resume:** Skips fully downloaded maps and automatically redownloads corrupted/incomplete ones.
 - **Dynamic Folders:** Creates and saves maps directly into a `[Username]'s Most Played Beatmaps` directory.
